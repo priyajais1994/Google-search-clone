@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "d1635237-16a9-457d-8d5b-6e3ed5b3fe05",
+		"name": "google search result api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27287174"
+	},
+	"item": [
+		{
+			"name": "google search result api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/customsearch/v1?key=AIzaSyByKufiucuq2nD6V6b5oMzWTLJto29A4Rc&cx=b6541865403e64676&q=lectures",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"customsearch",
+						"v1"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "AIzaSyByKufiucuq2nD6V6b5oMzWTLJto29A4Rc"
+						},
+						{
+							"key": "cx",
+							"value": "b6541865403e64676"
+						},
+						{
+							"key": "q",
+							"value": "lectures"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
